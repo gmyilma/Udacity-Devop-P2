@@ -25,6 +25,6 @@ Create Server stack:
 aws cloudformation create-stack  --stack-name servers --template-body file://servers-deployment.yaml --parameters file://servers-params.json --region us-west-2  --capabilities CAPABILITY_IAM
 
 
-Step 5 go to EC2 dashboard and to loadbalancer menu and copy the DNS address and access index.html on your browser.
+Step 5 go to EC2 dashboard and to loadbalancer menu and copy the DNS address and access index.html application on your browser.
 
 
