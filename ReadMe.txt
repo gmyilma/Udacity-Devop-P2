@@ -1,10 +1,3 @@
-To access my working deployment please use the following address:
-
-
-http://serve-loadb-hvsuvxctsrxm-1033705236.us-west-2.elb.amazonaws.com/
-
-
-
 To deploy the project 
 
 Step 1:
@@ -21,7 +14,7 @@ Create S3 bucket and upload index.zip file and note the name of the bucket you c
 
 Step 3:
 
-Modify the 
+Modify the server-deployment stack with your s3bucket address
 
 
 Step 4: 
